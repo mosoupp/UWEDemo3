@@ -1,6 +1,8 @@
-# TODO: PROJECT NAME HERE
+# Life Expectancy at birth in Bristol by Ward
 
-TODO: Brief outline of your project describing the dataset and a link to it.
+This project will contain an interactive web application using the Life Expectancy at birth in Bristol by Ward dataset, via the public Open Data Bristol dataset.
+The dataset provides an estimation on life expectancy at birth in different wards across Bristol.
+https://opendata.bristol.gov.uk/datasets/d51a84ba68234432b9108491844b1e23_19/explore
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
