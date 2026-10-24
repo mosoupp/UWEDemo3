@@ -3,7 +3,8 @@
 ## Business Case
 
 ### Problem statement
-TODO: Replace the example text like this with text that describes your project. What is the problem to be addressed?
+Life expectancy varies between neighbourhoods within the same city. Understanding these differences require information that is easy to access and compare. However, the raw format of the Life Expectancy at birth in Bristol by Ward dataset can be difficult for users to examine and understand these differences between wards.
+The proposed web application will aid users in exploring this information through clear interactive charts and tools. By presenting life expectancy estimations visually, comparisons will be much easier for the user to make.
 
 ### Business benefits
 TODO: List high-level benefits that this product will provide.
