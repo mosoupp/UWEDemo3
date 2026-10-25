@@ -9,16 +9,33 @@ The proposed web application will aid users in exploring this information throug
 ### Business benefits
 The application will make Bristol's ward-level life expectancy data easier to explore and understand. Its main benefits will include:
 1) Greater Public Understanding
-   Visual comparisons will help users understand and interpret life expectancy estimates without needing any special skills or tools. It saves users the hassle of trying to filter and sort data from a raw dataset.
+   - Visual comparisons will help users understand and interpret life expectancy estimates without needing any special skills or tools. It saves users the hassle of trying to filter and sort data from a raw dataset.
 2) Providing a Clearer Picture of Bristol
-   Users will be able to explore differences between wards that could be overlooked when viewing the city as a whole.
+   - Users will be able to explore differences between wards that could be overlooked when viewing the city as a whole.
 3) A Starting Point for Further Investigation
-   Users can identify differences worth researching, for example somebody looking to move to Bristol will be able to ask their own questions and identify using the application where a good place to settle may be. Or     it may be a researcher trying to understand why a certain neighbourhood could provide a different outcome in any scenario.
+   - Users can identify differences worth researching, for example somebody looking to move to Bristol will be able to ask their own questions and identify using the application where a good place to settle may be. Or it may be a researcher trying to understand why a certain neighbourhood could provide a different outcome in any scenario.
 4) More Useful Public Data
-   The application will give residents a practical way to explore published statistics about their local area.
+   - The application will give residents a practical way to explore published statistics about their local area.
 
 ### Options Considered
+There are multiple approaches to meet the users' needs for accessing, understanding and comparing life expectancy estimates across Bristol's wards.
 
+Option 1: Using Microsoft Excel
+Users can download the dataset and use Microsoft spreadsheet tools to sort values, compare wards and create charts manually.
+Advantages:
+- Very flexible on what/how they can use the data.
+- Familiar to many users and suitable for calculations and detailed analysis.
+Disadvantages:
+- Requires knowledge of spreadsheets and visualisation tools.
+- Users will have to create their own comparions and visualisations manually.
+
+Option 2: Using the existing Bristol Open Data Platform.
+Users can access the dataset directly through the existing online platform. Reading data off a raw spreadsheet or using provided tools.
+Advantages:
+- Readily available, requires no development of any applications and provides access to the published source.
+Disadvantages:
+- Users may still need to interpret the data themselves.
+- The platform can offer less guidance than a dedicated application designed specifically for life expectancy comparisons.
 
 ### Expected Risks
 TODO: What are the main risks of this project?
