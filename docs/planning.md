@@ -22,12 +22,14 @@ There are multiple approaches to meet the users' needs for accessing, understand
 
 Option 1: Using Microsoft Excel
 Users can download the dataset and use Microsoft spreadsheet tools to sort values, compare wards and create charts manually.<br>
+<raw>
 Advantages:
 - Very flexible on what/how they can use the data.
 - Familiar to many users and suitable for calculations and detailed analysis.<br>
 Disadvantages:
 - Requires knowledge of spreadsheets and visualisation tools.
 - Users will have to create their own comparions and visualisations manually.
+</raw>
 
 Option 2: Using the existing Bristol Open Data Platform.
 Users can access the dataset directly through the existing online platform. Reading data off a raw spreadsheet or using provided tools.
