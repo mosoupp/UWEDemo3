@@ -21,25 +21,33 @@ The application will make Bristol's ward-level life expectancy data easier to ex
 There are multiple approaches to meet the users' needs for accessing, understanding and comparing life expectancy estimates across Bristol's wards.
 
 Option 1: Using Microsoft Excel
-Users can download the dataset and use Microsoft spreadsheet tools to sort values, compare wards and create charts manually.
-<br>
+Users can download the dataset and use Microsoft spreadsheet tools to sort values, compare wards and create charts manually.<br>
 Advantages:
 - Very flexible on what/how they can use the data.
-- Familiar to many users and suitable for calculations and detailed analysis.
-<br>
+- Familiar to many users and suitable for calculations and detailed analysis.<br>
 Disadvantages:
 - Requires knowledge of spreadsheets and visualisation tools.
 - Users will have to create their own comparions and visualisations manually.
 
 Option 2: Using the existing Bristol Open Data Platform.
-Users can access the dataset directly through the existing online platform. Reading data off a raw spreadsheet or using provided tools.
-<br>
+Users can access the dataset directly through the existing online platform. Reading data off a raw spreadsheet or using provided tools.<br>
 Advantages:
-- Readily available, requires no development of any applications and provides access to the published source.
-<br>
+- Readily available, requires no development of any applications and provides access to the published source.<br>
 Disadvantages:
 - Users may still need to interpret the data themselves.
 - The platform can offer less guidance than a dedicated application designed specifically for life expectancy comparisons.
+
+Option 3: Custom Web Application
+A dedicated website tailored to display life expectancy data across Bristol's wards dataset using charts, graphs, maps and other visualisations.<br>
+Advantages:
+- Simple and user friendly interface designed for the target audience.
+- Interactive visualisations creates to make data easier to understand.
+- Accessible through a web browser without the need for any specialist data analysis softwares.<br>
+Disadvantages:
+- Data may need updating when new statistics are released/updated.
+- Requires an internet connection in order to access the website.
+
+Factoring in these option it makes most sense for the user to use our proposed web application solution. This is because the application is specifically designed around 
 
 ### Expected Risks
 TODO: What are the main risks of this project?
