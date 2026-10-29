@@ -74,6 +74,17 @@ Displaying several wards in one chart could make labels crowded and comparisons 
 Open Data Bristol may release new estimates after the dataset has been downloaded. If the application continues to use an older version without clearly identifying its reporting period, users could mistake historical figures for the latest available information.
 
 ## Project Scope
-TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
+Bristol Open Data Dataset:
+- Bristol Open Data supplies the life expectancy dataset and any supporting information. The application uses these published estimates, but their accuracy, coverage and release schedule are outside the developer's control.
+Residents & The Public:
+- Residents and the public use the application to select wards, view estimates and explore differences accros Bristol and its wards. Their needs will influence the design but their own individual iterpretations of the results are outside of our control.
+Students & Researchers:
+- Students and researchers will use the charts and data tables to compare wards and support their research or further investigations. The application provides information, while any further analysis of the results remains outside its scope.
+Developer/Maintainer:
+- The developer or maintainer build the application, corrects errors anad updates its data. This person controls the code and presentation but acts from outside the actual application itself.
+Web Hosting:
+- Stores the website's files and allows the application to run online. The developer is the one who uploads the application, while the hosting provider controls the infrastructure.
+Browser Compatability:
+- The browser and device provides an environment in which the application runs. The browsers compatability, screen size and the performance of the device can affect the user experience. The developer has no control of the users equipment.
 
 ![Insert your Context Diagram Here](images/context.png)
