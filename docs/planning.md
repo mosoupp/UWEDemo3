@@ -87,4 +87,4 @@ Web Hosting:
 Browser Compatability:
 - The browser and device provides an environment in which the application runs. The browsers compatability, screen size and the performance of the device can affect the user experience. The developer has no control of the users equipment.
 
-(images/context.png)
+!(images/context.png)
