@@ -47,10 +47,31 @@ Disadvantages:
 - Data may need updating when new statistics are released/updated.
 - Requires an internet connection in order to access the website.
 
-Factoring in these option it makes most sense for the user to use our proposed web application solution. This is because the application is specifically designed around 
+Factoring in these option it makes most sense for the user to use our proposed web application solution. This is because the application is specifically designed around the Open Bristol's Life Expectancy by Ward dataset, including features that are made to explain this dataset in any way possible.
 
 ### Expected Risks
-TODO: What are the main risks of this project?
+The project has several risks that could affect the accuracy of the information and the completion of the application. These will need to be considered during the planning, development and testing stages.
+
+Risk 1: Accuracy of Displayed Data
+Mistakes may occur when preparing or importing the dataset leading to incorrect values appearing in the application. For example, figures being linked to the wrong ward, missing values treated as zero, or charts displaying information incorrectly. These errors would reduce the reliability of the application.
+
+2. Misunderstanding Life Expectancy
+Some users may interpret a ward’s life expectancy estimate as a prediction of their own lifespan. They may also assume that differences between wards prove the effects of particular social or environmental factors, even though the dataset alone cannot establish those causes.
+
+3. Misleading Comparisons
+Comparisons could be misleading if the selected figures cover different reporting periods or population groups. Small differences between estimates could also appear more significant than they are, particularly if uncertainty is not explained or chart scales exaggerate the gap.
+
+4. Technical Difficulties
+Developing interactive charts and filters using JavaScript may present challenges. A fault could cause a chart to show the wrong selection or fail to update. Differences between browsers and screen sizes could also affect how the application looks and functions.
+
+5. Time Constraints
+The project requires time for data preparation, planning, design, requirements and testing. If a feature takes longer than expected, there may be less time to complete other essential parts of the application. Adding too many features could make it difficult to deliver a finished product by the deadline.
+
+6. Usability and Accessibility
+Displaying several wards in one chart could make labels crowded and comparisons difficult to follow. Small text, unclear navigation or reliance on colour alone could create barriers for some users. A layout that works well on a desktop may also be difficult to use on a mobile device.
+
+7. Outdated Information
+Open Data Bristol may release new estimates after the dataset has been downloaded. If the application continues to use an older version without clearly identifying its reporting period, users could mistake historical figures for the latest available information.
 
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
