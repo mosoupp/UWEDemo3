@@ -3,11 +3,18 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+As a Bristol resident, I want to select my ward so that I can view its life expectancy estimates.
+As a member of the public I would like to compare wards in clear charts so that I can understand the differences across Bristol.
+Being a student, I want to sort wards by life expectancy so that I can identify patterns patterns for my coursework.
+As a researcher and working with large datasets, I want to view exact figures in a data table so that I can check the values shown in charts. I also would like to see the data source and reporting periods so that I can judge whether or not this data is suitable for my investigations.
+As a general user, I have no history working with data in the past so I would like a clear explanation of life expectancy at birth so that I can interpret the estimates correctly.
+As a maintainer, I need a documented process for replacing the dataset so that I can keep the application up to date.
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+Bristol residents and the general public: People interested in life expectancy in their local areaa. They will need to select wards, view summaries and compare estimates across Bristol.
+Students: Users exploring the data for coursework, they will use charts and tables to investigate geographical differences and understand the Bristol populations health statistics.
+Researchers: Users who need to examine the data and figures more closely. They will view exact values, compare wards and work with the source information and limitations to assess whether the data supports their investigations.
+Maintainer/Developer: The person who is responsible for maintaining the application, fixing faults and replacating the dataset when updates become available.
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
