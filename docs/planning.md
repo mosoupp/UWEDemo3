@@ -20,7 +20,7 @@ The application will make Bristol's ward-level life expectancy data easier to ex
 ### Options Considered
 There are multiple approaches to meet the users' needs for accessing, understanding and comparing life expectancy estimates across Bristol's wards.
 
-Option 1: Using Microsoft Excel
+Option 1: Using Microsoft Excel <br>
 Users can download the dataset and use Microsoft spreadsheet tools to sort values, compare wards and create charts manually.<br>
 Advantages:
 - Very flexible on what/how they can use the data.
@@ -29,7 +29,7 @@ Disadvantages:
 - Requires knowledge of spreadsheets and visualisation tools.
 - Users will have to create their own comparions and visualisations manually.
 
-Option 2: Using the existing Bristol Open Data Platform.
+Option 2: Using the existing Bristol Open Data Platform. <br>
 Users can access the dataset directly through the existing online platform. Reading data off a raw spreadsheet or using provided tools.<br>
 Advantages:
 - Readily available, requires no development of any applications and provides access to the published source.<br>
@@ -37,7 +37,7 @@ Disadvantages:
 - Users may still need to interpret the data themselves.
 - The platform can offer less guidance than a dedicated application designed specifically for life expectancy comparisons.
 
-Option 3: Custom Web Application
+Option 3: Custom Web Application <br>
 A dedicated website tailored to display life expectancy data across Bristol's wards dataset using charts, graphs, maps and other visualisations.<br>
 Advantages:
 - Simple and user friendly interface designed for the target audience.
