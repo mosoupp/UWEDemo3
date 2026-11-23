@@ -37,11 +37,27 @@ TODO: Describe each use case (at least one per team member).
 | **Assumptions** | There is life expectancy data for more than one ward.</td></tr>
 | **Steps** | 1) User selects the 'Compare' tab. 2) User inputs two wards. 3) System retrieves data for both wards. 4) System displays the life expectancies and shows a brief comparison of their values. |
 | **Variations** | User will have to select two specific wards rather than comparing all. |
-| **Non-functional** | Which kind of chart/table would be best for this case? |
+| **Issues** | Which kind of chart/table would be best for this case? |
+| **Non-functional** | Charts should be clearly readible and labelled. |
 
 | UC3 | Sort Wards by Life Expectancy | 
 | -------------------------------------- | ------------------- |
 | **Description** | Lets the user sort data by life expectancy to identify patterns. This one is based on the student's user story. |
+| **Actors** | Students, Researchers |
+| **Assumptions** | The table contains numerical data, in this case life expectancy in number of years.</td></tr>
+| **Steps** | 1) Users opens 'All Wards' tab. 2) User selects a sorting option. 3) System sorts wards by life expectancy. 4) Display the data to the user. |
+| **Variations** | Users can sort from lowest to highest or highest to lowest. |
+| **Non-functional** | Sorting should be responsive and display correct results. |
+
+| UC4 | Update Application Dataset | 
+| -------------------------------------- | ------------------- |
+| **Description** | Allow the maintainer/developer to replace the existing dataset when a new one is released by Open Data Bristol. This will follow a procedure. |
+| **Actors** | Maintainer/Developer |
+| **Assumptions** | The new dataset is in a compatible format, and the maintainer has access to project files.</td></tr>
+| **Steps** | 1) Maintainer acquires new dataset. 2) Maintainer follows procedure to replace the old dataset. 3) Maintainer ensures all data displays correctly. |
+| **Variations** | If the dataset changes format then a necessary response will need to be taken - e.g. modifying code or data. |
+| **Non-functional** | Updates should not cause data corruption or display incorrectly on the application. |
+| **Issues** | Will dataset replacement be a manual prodcedure or automated? |
 
 
 TODO: Your Use-Case diagram should include all use-cases.
