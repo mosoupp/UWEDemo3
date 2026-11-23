@@ -21,15 +21,27 @@ TODO: Describe each use case (at least one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+| UC1 | View Ward Life Expectancy | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Description** | Let a user select a ward in Bristol and view the estimated life expectancy at birth |
+| **Actors** | Bristol residents, general user/public |
+| **Assumptions** | The application has a database containing this information</td></tr>
+| **Steps** | 1) User opens application. 2) User selects ward 3) System retrieves this data from database. 4) Life expectancy is presented to the user. |
+| **Variations** | If the data is unavailable or the ward doesn't exist the system will display a relevant message |
+| **Non-functional** | Information must be clear to view |
+
+| UC2 | Compare Ward Life Expectancy | 
+| -------------------------------------- | ------------------- |
+| **Description** | Allow users to select two wards and compare their life expectancy at birth. |
+| **Actors** | Bristol residents, general user/public, students, researchers |
+| **Assumptions** | There is life expectancy data for more than one ward.</td></tr>
+| **Steps** | 1) User selects the 'Compare' tab. 2) User inputs two wards. 3) System retrieves data for both wards. 4) System displays the life expectancies and shows a brief comparison of their values. |
+| **Variations** | User will have to select two specific wards rather than comparing all. |
+| **Non-functional** | Which kind of chart/table would be best for this case? |
+
+| UC3 | Sort Wards by Life Expectancy | 
+| -------------------------------------- | ------------------- |
+| **Description** | Lets the user sort data by life expectancy to identify patterns. This one is based on the student's user story. |
 
 
 TODO: Your Use-Case diagram should include all use-cases.
